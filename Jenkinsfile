@@ -38,7 +38,7 @@ pipeline {
             steps {
 
 
-                     sh  ''' echo 'hajsaks' '''
+                     sh  ''' echo 'hajsaks play' '''
                 
             }
 
