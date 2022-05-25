@@ -1,2 +1,1 @@
-FROM microsoft/dotnet:2.2-sdk
-
+FROM mcr.microsoft.com/dotnet/sdk:6.0

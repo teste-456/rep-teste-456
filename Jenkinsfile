@@ -10,13 +10,12 @@ pipeline {
         stage('Echo') {
 
             agent {
-                dockerfile true 
-                // dockerfile {
-                //     // alwaysPull false
-                //     // image 'microsoft/dotnet:2.2-sdk'
-                //     // reuseNode false
-                //     args '-u root:root'
-                // }
+                dockerfile {
+                    // alwaysPull false
+                    // image 'microsoft/dotnet:2.2-sdk'
+                    // reuseNode false
+                    args '-u root:root'
+                }
             }
 
             steps {
