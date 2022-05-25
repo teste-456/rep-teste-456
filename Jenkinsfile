@@ -51,9 +51,9 @@ pipeline {
         always {
             node('master'){
                 
-                sh  '''
+                // sh  '''
                
-                '''
+                // '''
             }
         }
     }

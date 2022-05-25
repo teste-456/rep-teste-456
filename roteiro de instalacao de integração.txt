@@ -1,0 +1,16 @@
+no host do jenkins:
+instalado o java
+instalado o jenkins
+instalado o git
+
+
+no jenkins:
+plugins no jenkins
+docker pipeline (para fazer build de um dockerfile)
+github branch source pull request change filter (ligar jenkins com git organization)
+
+
+no git
+criar organização
+criar repositorio dentro de organização
+criar webhook dentro de organização, apontando para o jenkins (exemplo de link: http://laboratorio.pro.br/github-webhook/)
